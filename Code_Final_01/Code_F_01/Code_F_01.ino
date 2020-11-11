@@ -7,7 +7,7 @@
 char auth[] = "gK6W0QJJGJ_byUfwoPjaDoOm_x7s3qaa";
 char ssid[] = "Hell Room";  
 char pass[] = "203203203";
-#define DHTPIN D2
+#define DHTPIN 5
 #define DHTTYPE DHT11 
 
 DHT dht(DHTPIN, DHTTYPE);
